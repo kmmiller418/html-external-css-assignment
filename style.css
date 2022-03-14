@@ -34,3 +34,19 @@ li {
 .search-icon {
     width: 1.5%;
 }
+
+.user-nav {
+    display: flex;
+    text-transform: uppercase;
+    flex-direction: column;
+    align-content: center;
+}
+
+/* p element came with implicit margins for some reason, added explicit 0 margin per Erin's suggestion! worked! */
+.user-nav p {
+    margin: 0px;
+}
+
+.shopping-cart {
+    width: 8%;
+}
