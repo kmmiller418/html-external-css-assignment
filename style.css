@@ -1,52 +1,56 @@
 .navbar {
-    background-color: black;
-    display: flex;
-    align-items: center;
-    height: 100px;
-    color: white
+  background-color: black;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  color: white;
 }
 
 .logo {
-    background-color: rgb(150, 40, 150);
-    display: flex;
-    align-items: center;
-    padding: 0 .5em;
-    font-size: 36px;
-    height: 100px;
+  background-color: rgb(150, 40, 150);
+  display: flex;
+  align-items: center;
+  padding: 0 0.5em;
+  font-size: 36px;
+  height: 100px;
+}
+
+.nav-links {
+  margin-right: 60px;  
 }
 
 ul {
-    display: flex;
-    list-style-type: none;
-    margin-right: 20px;
+  display: flex;
+  list-style-type: none;
 }
 
 li {
-    margin: 10px;
-    padding: 10px;
-    font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
 }
 
 .search-bar {
-    width: 200px;
-    margin-right: 10px;
+  width: 200px;
+  margin-right: 10px;
 }
 .search-icon {
-    width: 1.5%;
+  width: 3%;
 }
 
 .user-nav {
-    display: flex;
-    text-transform: uppercase;
-    flex-direction: column;
-    align-content: center;
+  display: flex;
+  text-transform: uppercase;
+  flex-direction: column;
+  align-content: center;
 }
 
 /* p element came with implicit margins for some reason, added explicit 0 margin per Erin's suggestion! worked! */
 .user-nav p {
-    margin: 0px;
+  margin: 0px;
+  font-size: 16px;
 }
 
 .shopping-cart {
-    width: 8%;
+  width: 8%;
 }
