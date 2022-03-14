@@ -26,3 +26,11 @@ li {
     padding: 10px;
     font-weight: bold;
 }
+
+.search-bar {
+    width: 200px;
+    margin-right: 10px;
+}
+.search-icon {
+    width: 1.5%;
+}
